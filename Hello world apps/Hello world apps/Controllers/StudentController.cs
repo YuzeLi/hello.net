@@ -13,5 +13,11 @@ namespace Hello_world_apps.Controllers
         {
             return View();
         }
+        public ActionResult Myleave()
+        {
+            return View();
+        }
+
+
     }
 }
