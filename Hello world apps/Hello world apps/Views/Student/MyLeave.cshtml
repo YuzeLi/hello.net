@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "MyLeave";
+}
+
+<h2>MyLeave</h2>
+
+<p>This page is MyLeave!</p>
+
+@{
+    
+        <form method="post" action="">
+            Student ID:<br>
+            <input type="text" name="StudentId" value=""><br><br>
+            Name:<br>
+            <input type="text" name="Name" value=""><br><br>
+            Age:<br>
+            <input type="text" name="Age" value=""><br><br>
+            Is Full Time Student:<br>
+            <input type="checkbox" name="yes" value="yes">Yes<br>
+            <input type="checkbox" name="no" value="no">No<br><br>
+            Campus:<br>
+            <select name="campus">
+                <option value="cas">Casurina</option>
+                <option value="pal">Palmerston</option>
+            </select><br><br>
+            EnrolledSubjects:<br>
+            <select class="subjects" multiple="multiple">
+                <option value="455">PRT455</option>
+                <option value="456">PRT456</option>
+                <option value="457">PRT457</option>
+            </select><br><br>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    
+} 

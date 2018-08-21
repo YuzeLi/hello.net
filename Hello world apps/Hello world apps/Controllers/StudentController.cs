@@ -9,11 +9,8 @@ namespace Hello_world_apps.Controllers
     public class StudentController : Controller
     {
         // GET: Student
-        public ActionResult Index()
-        {
-            return View();
-        }
-        public ActionResult Myleave()
+        
+        public ActionResult MyLeave()
         {
             return View();
         }
